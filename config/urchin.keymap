@@ -106,6 +106,15 @@
         };
     };
 
+    macros {
+        bracket_soft: bracket_soft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+            label = "BRACKET_SOFT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
