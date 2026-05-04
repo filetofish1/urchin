@@ -364,7 +364,7 @@
             bindings = <
 &kp Q                   &kp W              &kp E              &kp R                       &kp T              &kp Y          &kp U                        &kp I               &kp O               &kp P
 &hrm_L LEFT_SHIFT A     &hrm_L LEFT_GUI S  &hrm_L LEFT_ALT D  &hrm_ctrl_L LEFT_CONTROL F  &kp G              &kp H          &hrm_ctrl_R RIGHT_CONTROL J  &hrm_R RIGHT_ALT K  &hrm_R RIGHT_GUI L  &hrm_R RIGHT_SHIFT SEMICOLON
-&z_ctrl LEFT_CONTROL Z  &kp X              &kp C              &kp V                       &kp B              &kp N          &kp M                        &kp COMMA           &kp DOT             &kp ENTER
+&z_ctrl LEFT_CONTROL Z  &kp X              &kp C              &kp V                       &kp B              &kp N          &kp M                        &kp COMMA           &kp DOT             &kp SLASH
                                                               &kp LEFT_SHIFT              &tab_layer1 1 TAB  &kp BACKSPACE  &kp SPACE
             >;
         };
@@ -382,10 +382,10 @@
 
         function_system {
             bindings = <
-&kp F1   &kp F2   &kp F3            &kp F4     &kp F5     &bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3
-&kp F6   &kp F7   &kp F8            &kp F9     &kp F10    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV    &kp C_NEXT
-&kp F11  &kp F12  &kp C_PLAY_PAUSE  &kp TILDE  &kp GRAVE  &kp BSLH    &kp PIPE           &rgb_ug RGB_TOG  &out OUT_TOG  &bt BT_CLR_ALL
-                                    &trans     &trans     &trans      &trans
+&kp F1  &kp F2   &kp F3   &kp F4   &kp F5     &trans    &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3
+&kp F5  &kp F6   &kp F7   &kp F8   &kp GRAVE  &kp BSLH  &kp RCTRL     &kp RALT         &kp RGUI      &kp RSHFT
+&kp F9  &kp F10  &kp F11  &kp F12  &kp TILDE  &kp PIPE  &bt BT_CLR    &rgb_ug RGB_TOG  &out OUT_TOG  &bt BT_CLR_ALL
+                          &trans   &trans     &trans    &trans
             >;
 
             label = "system";
